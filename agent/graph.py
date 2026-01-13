@@ -14,9 +14,7 @@ def chatbot(state: AgentState, user_input: str):
         
 
 
-    # ==============================
     # STEP 1: HANDLE EXPECTED INPUTS
-    # ==============================
     if state["expected_field"] == "name":
         state["name"] = user_input
         state["expected_field"] = "email"
@@ -35,7 +33,6 @@ def chatbot(state: AgentState, user_input: str):
 
     # ==============================
     # STEP 2: NORMAL INTENT DETECTION
-    # ==============================
     intent = detect_intent(user_input)
     state["intent"] = intent
 
