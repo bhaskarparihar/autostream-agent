@@ -196,4 +196,3 @@ This project demonstrates:
 ## 👤 Author
 
 **Bhaskar Parihar**
-Machine Learning Intern Applicant
